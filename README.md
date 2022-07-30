@@ -15,6 +15,8 @@ GET http://localhost:8080/odata/Fathers
 
 or GET http://localhost:8080/odata/Mothers
 
+For return json format, add ?$format=json like http://localhost:8080/odata/Fathers?$format=json
+
 ### Create a entity
 
 POST
@@ -25,3 +27,5 @@ Object Format(json)
     {
         "Name":"Peter"
     }
+
+
